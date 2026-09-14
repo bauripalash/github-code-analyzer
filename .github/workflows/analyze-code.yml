@@ -78,7 +78,7 @@ jobs:
           mkdir -p output/repositories
 
           echo "Calculating lines of code per repository..."
-          echo "Ignoring directories named: external, gen"
+          echo "Ignoring directories named: external, gen, exported"
 
           for REPO_DIR in public-repos/*; do
             [ -d "$REPO_DIR" ] || continue
@@ -96,6 +96,18 @@ jobs:
               --exclude-lang="${IGNORE_LANGS}" \
               --exclude-dir="external,gen,exported"
           done
+
+      - name: Calculate Combined Lines of Code
+        run: |
+          set -e
+
+          echo "Calculating combined lines of code..."
+
+          cloc public-repos \
+            --json \
+            --report-file="output/cloc-output.json" \
+            --exclude-lang="${IGNORE_LANGS}" \
+            --exclude-dir="external,gen,exported"
 
       - name: Generate README Breakdown
         run: |
@@ -166,6 +178,7 @@ jobs:
           done
 
           echo '[ TOTAL ]' >> "$BREAKDOWN_FILE"
+
           printf "%-20s --> %s\n" \
             "Repositories" \
             "$REPO_COUNT" >> "$BREAKDOWN_FILE"
