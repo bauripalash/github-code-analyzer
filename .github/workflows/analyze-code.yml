@@ -41,7 +41,9 @@ jobs:
 
             REPOS=$(echo "$RESPONSE" | jq -r '.[] | select(.fork == false) | .full_name')
 
-            [ -z "$REPOS" ] && break
+            if [ -z "$REPOS" ]; then
+              break
+            fi
 
             while IFS= read -r REPO; do
               [ -z "$REPO" ] && continue
@@ -61,7 +63,7 @@ jobs:
                 --single-branch \
                 --depth 1 \
                 "https://github.com/$REPO.git" \
-                "public-repos/$REPO_NAME" ||
+                "public-repos/$REPO_NAME" || \
                 echo "Failed to clone $REPO; continuing."
 
             done <<< "$REPOS"
@@ -76,6 +78,7 @@ jobs:
           mkdir -p output/repositories
 
           echo "Calculating lines of code per repository..."
+          echo "Ignoring directories named: external, gen"
 
           for REPO_DIR in public-repos/*; do
             [ -d "$REPO_DIR" ] || continue
@@ -102,10 +105,15 @@ jobs:
           export LANG="en_US.UTF-8"
 
           format_number() {
-            printf "%'d\n" "$1"
+            printf "%'d" "$1"
           }
 
-          REPO_BREAKDOWN=""
+          BREAKDOWN_FILE="readme-breakdown.txt"
+
+          rm -f "$BREAKDOWN_FILE"
+
+          echo '[ LINES OF CODE BY REPOSITORY ]' >> "$BREAKDOWN_FILE"
+          echo "" >> "$BREAKDOWN_FILE"
 
           TOTAL_CODE=0
           TOTAL_FILES=0
@@ -119,21 +127,98 @@ jobs:
             REPO_LINES=$(jq '.SUM.code // 0' "$REPO_FILE")
             REPO_FILES=$(jq '.SUM.nFiles // 0' "$REPO_FILE")
 
-            [ "$REPO_LINES" -gt 0 ] || continue
+            if [ "$REPO_LINES" -eq 0 ]; then
+              continue
+            fi
 
             REPO_COUNT=$((REPO_COUNT + 1))
             TOTAL_CODE=$((TOTAL_CODE + REPO_LINES))
             TOTAL_FILES=$((TOTAL_FILES + REPO_FILES))
 
-            REPO_BREAKDOWN+="### ${REPO_NAME}"$'\n'
-            REPO_BREAKDOWN+='```text'$'\n'
+            echo "### $REPO_NAME" >> "$BREAKDOWN_FILE"
+            echo '```text' >> "$BREAKDOWN_FILE"
 
-            while read -r ENTRY; do
-              LANG_NAME=$(echo "$ENTRY" | jq -r '.lang')
-              LINES=$(echo "$ENTRY" | jq -r '.lines')
+            jq -r '
+              to_entries
+              | map(select(.key != "header" and .key != "SUM"))
+              | map({
+                  lang: .key,
+                  lines: (.value.code // 0)
+                })
+              | map(select(.lines > 0))
+              | sort_by(-.lines)
+              | .[]
+              | [.lang, .lines]
+              | @tsv
+            ' "$REPO_FILE" |
+            while IFS=$'\t' read -r LANG_NAME LINES; do
+              printf "%-20s --> %s lines\n" \
+                "$LANG_NAME" \
+                "$(format_number "$LINES")" >> "$BREAKDOWN_FILE"
+            done
 
-              [ "$LINES" -gt 0 ] || continue
+            printf "%-20s --> %s lines\n" \
+              "TOTAL" \
+              "$(format_number "$REPO_LINES")" >> "$BREAKDOWN_FILE"
 
-              FORMATTED=$(format_number "$LINES")
+            echo '```' >> "$BREAKDOWN_FILE"
+            echo "" >> "$BREAKDOWN_FILE"
+          done
 
-              REPO_BREAKDOWN+=$(printf "%-20
+          echo '[ TOTAL ]' >> "$BREAKDOWN_FILE"
+          printf "%-20s --> %s\n" \
+            "Repositories" \
+            "$REPO_COUNT" >> "$BREAKDOWN_FILE"
+
+          printf "%-20s --> %s\n" \
+            "Source files" \
+            "$(format_number "$TOTAL_FILES")" >> "$BREAKDOWN_FILE"
+
+          printf "%-20s --> %s lines\n" \
+            "Total lines of code" \
+            "$(format_number "$TOTAL_CODE")" >> "$BREAKDOWN_FILE"
+
+          CODE_BLOCK_FILE="code-block.txt"
+
+          {
+            echo '```text'
+            cat "$BREAKDOWN_FILE"
+            echo '```'
+          } > "$CODE_BLOCK_FILE"
+
+          if ! grep -q '<!-- LANGUAGES BREAKDOWN START -->' README.md; then
+            echo "ERROR: README.md is missing LANGUAGES BREAKDOWN START marker."
+            exit 1
+          fi
+
+          if ! grep -q '<!-- LANGUAGES BREAKDOWN END -->' README.md; then
+            echo "ERROR: README.md is missing LANGUAGES BREAKDOWN END marker."
+            exit 1
+          fi
+
+          {
+            sed -n '1,/<!-- LANGUAGES BREAKDOWN START -->/p' README.md
+            cat "$CODE_BLOCK_FILE"
+            sed -n '/<!-- LANGUAGES BREAKDOWN END -->/,$p' README.md
+          } > README.md.tmp
+
+          mv README.md.tmp README.md
+
+          rm -f "$BREAKDOWN_FILE" "$CODE_BLOCK_FILE"
+
+      - name: Commit and Push Output
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          set -e
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add output README.md
+
+          git commit \
+            -m "chore: update README with latest code statistics" || \
+            echo "No changes to commit"
+
+          git push origin HEAD
