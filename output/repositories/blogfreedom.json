@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0126709938049316,
+  "elapsed_seconds"    : 0.0154609680175781,
   "n_files"            : 21,
   "n_lines"            : 1102,
-  "files_per_second"   : 1657.32856659015,
-  "lines_per_second"   : 86970.2895420163,
+  "files_per_second"   : 1358.25906735751,
+  "lines_per_second"   : 71276.2615346657,
   "report_file"        : "output/repositories/blogfreedom.json"},
 "Kotlin" :{
   "nFiles": 15,

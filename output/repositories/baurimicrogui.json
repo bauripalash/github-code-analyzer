@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0159051418304443,
+  "elapsed_seconds"    : 0.0193209648132324,
   "n_files"            : 16,
   "n_lines"            : 1844,
-  "files_per_second"   : 1005.96399394403,
-  "lines_per_second"   : 115937.350302049,
+  "files_per_second"   : 828.115994965325,
+  "lines_per_second"   : 95440.3684197537,
   "report_file"        : "output/repositories/baurimicrogui.json"},
 "Python" :{
   "nFiles": 14,

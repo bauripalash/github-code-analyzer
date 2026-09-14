@@ -20,13 +20,13 @@ TOTAL                --> 229 lines
 
 ### bauriglyphmaker
 ```text
-C/C++ Header         --> 53,583 lines
 C                    --> 2,239 lines
+C/C++ Header         --> 648 lines
 Zig                  --> 80 lines
 make                 --> 63 lines
 CMake                --> 53 lines
 INI                  --> 14 lines
-TOTAL                --> 56,032 lines
+TOTAL                --> 3,097 lines
 ```
 
 ### baurimicrogui
@@ -49,12 +49,12 @@ TOTAL                --> 392 lines
 ### bauripixel
 ```text
 C                    --> 4,891 lines
-C/C++ Header         --> 1,273 lines
+C/C++ Header         --> 887 lines
 Python               --> 155 lines
 Zig                  --> 88 lines
 CMake                --> 70 lines
 make                 --> 66 lines
-TOTAL                --> 6,543 lines
+TOTAL                --> 6,157 lines
 ```
 
 ### bauri_st7735
@@ -599,8 +599,8 @@ TOTAL                --> 19,959 lines
 
 [ TOTAL ]
 Repositories         --> 77
-Source files         --> 1,671
-Total lines of code  --> 311,037 lines
+Source files         --> 1,666
+Total lines of code  --> 257,716 lines
 ```
 <!-- LANGUAGES BREAKDOWN END -->
 *Stats update automatically via GitHub Actions.*

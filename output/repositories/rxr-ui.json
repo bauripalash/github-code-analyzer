@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00660085678100586,
+  "elapsed_seconds"    : 0.00702500343322754,
   "n_files"            : 1,
   "n_lines"            : 165,
-  "files_per_second"   : 151.495485082713,
-  "lines_per_second"   : 24996.7550386477,
+  "files_per_second"   : 142.348684880367,
+  "lines_per_second"   : 23487.5330052605,
   "report_file"        : "output/repositories/rxr-ui.json"},
 "Rust" :{
   "nFiles": 1,

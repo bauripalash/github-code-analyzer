@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.300714015960693,
+  "elapsed_seconds"    : 0.39657998085022,
   "n_files"            : 412,
   "n_lines"            : 163093,
-  "files_per_second"   : 1370.07248792106,
-  "lines_per_second"   : 542352.505515799,
+  "files_per_second"   : 1038.88249506877,
+  "lines_per_second"   : 411248.696039443,
   "report_file"        : "output/repositories/cpank.json"},
 "C" :{
   "nFiles": 273,

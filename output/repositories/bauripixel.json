@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0277450084686279,
-  "n_files"            : 64,
-  "n_lines"            : 8988,
-  "files_per_second"   : 2306.7212277973,
-  "lines_per_second"   : 323950.162428784,
+  "elapsed_seconds"    : 0.0337800979614258,
+  "n_files"            : 61,
+  "n_lines"            : 8525,
+  "files_per_second"   : 1805.79701307134,
+  "lines_per_second"   : 252367.533384151,
   "report_file"        : "output/repositories/bauripixel.json"},
 "C" :{
   "nFiles": 27,
@@ -13,10 +13,10 @@
   "comment": 100,
   "code": 4891},
 "C/C++ Header" :{
-  "nFiles": 31,
-  "blank": 321,
-  "comment": 739,
-  "code": 1273},
+  "nFiles": 28,
+  "blank": 292,
+  "comment": 691,
+  "code": 887},
 "Python" :{
   "nFiles": 1,
   "blank": 58,
@@ -38,7 +38,7 @@
   "comment": 1,
   "code": 66},
 "SUM": {
-  "blank": 1569,
-  "comment": 876,
-  "code": 6543,
-  "nFiles": 64} }
+  "blank": 1540,
+  "comment": 828,
+  "code": 6157,
+  "nFiles": 61} }

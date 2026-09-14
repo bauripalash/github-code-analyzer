@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00627398490905762,
+  "elapsed_seconds"    : 0.00697016716003418,
   "n_files"            : 2,
   "n_lines"            : 105,
-  "files_per_second"   : 318.776667300019,
-  "lines_per_second"   : 16735.775033251,
+  "files_per_second"   : 286.93716435779,
+  "lines_per_second"   : 15064.201128784,
   "report_file"        : "output/repositories/nowwhat.json"},
 "Go" :{
   "nFiles": 2,

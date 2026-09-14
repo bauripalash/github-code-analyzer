@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00610804557800293,
+  "elapsed_seconds"    : 0.00707197189331055,
   "n_files"            : 5,
   "n_lines"            : 111,
-  "files_per_second"   : 818.592450915336,
-  "lines_per_second"   : 18172.7524103205,
+  "files_per_second"   : 707.016384599825,
+  "lines_per_second"   : 15695.7637381161,
   "report_file"        : "output/repositories/math_with_racket.json"},
 "Racket" :{
   "nFiles": 5,

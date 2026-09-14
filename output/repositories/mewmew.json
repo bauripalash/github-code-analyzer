@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00951814651489258,
+  "elapsed_seconds"    : 0.0101990699768066,
   "n_files"            : 7,
   "n_lines"            : 1087,
-  "files_per_second"   : 735.437302740344,
-  "lines_per_second"   : 114202.906868393,
+  "files_per_second"   : 686.337089157978,
+  "lines_per_second"   : 106578.345130675,
   "report_file"        : "output/repositories/mewmew.json"},
 "C++" :{
   "nFiles": 1,

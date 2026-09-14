@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00654697418212891,
+  "elapsed_seconds"    : 0.0077521800994873,
   "n_files"            : 4,
   "n_lines"            : 126,
-  "files_per_second"   : 610.969264384559,
-  "lines_per_second"   : 19245.5318281136,
+  "files_per_second"   : 515.983884361064,
+  "lines_per_second"   : 16253.4923573735,
   "report_file"        : "output/repositories/mewlisp.json"},
 "Go" :{
   "nFiles": 3,

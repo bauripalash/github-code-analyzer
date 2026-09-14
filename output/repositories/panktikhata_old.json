@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0225820541381836,
+  "elapsed_seconds"    : 0.0294630527496338,
   "n_files"            : 55,
   "n_lines"            : 3121,
-  "files_per_second"   : 2435.56231259766,
-  "lines_per_second"   : 138207.090502133,
+  "files_per_second"   : 1866.74478260518,
+  "lines_per_second"   : 105929.281209287,
   "report_file"        : "output/repositories/panktikhata_old.json"},
 "Dart" :{
   "nFiles": 13,
