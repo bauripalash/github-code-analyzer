@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0145390033721924,
+  "n_files"            : 23,
+  "n_lines"            : 1740,
+  "files_per_second"   : 1581.95162427641,
+  "lines_per_second"   : 119678.079401781,
+  "report_file"        : "output/repositories/jumpvolly.json"},
+"Godot Scene" :{
+  "nFiles": 9,
+  "blank": 181,
+  "comment": 0,
+  "code": 1059},
+"GDScript" :{
+  "nFiles": 11,
+  "blank": 121,
+  "comment": 22,
+  "code": 297},
+"Python" :{
+  "nFiles": 1,
+  "blank": 4,
+  "comment": 4,
+  "code": 26},
+"Godot Resource" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 0,
+  "code": 11},
+"Godot Shaders" :{
+  "nFiles": 1,
+  "blank": 4,
+  "comment": 0,
+  "code": 10},
+"SUM": {
+  "blank": 311,
+  "comment": 26,
+  "code": 1403,
+  "nFiles": 23} }

@@ -1,0 +1,29 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00837492942810059,
+  "n_files"            : 9,
+  "n_lines"            : 468,
+  "files_per_second"   : 1074.63592108634,
+  "lines_per_second"   : 55881.0678964899,
+  "report_file"        : "output/repositories/bonmanush.json"},
+"Go" :{
+  "nFiles": 6,
+  "blank": 78,
+  "comment": 1,
+  "code": 313},
+"Python" :{
+  "nFiles": 2,
+  "blank": 20,
+  "comment": 5,
+  "code": 41},
+"make" :{
+  "nFiles": 1,
+  "blank": 3,
+  "comment": 0,
+  "code": 7},
+"SUM": {
+  "blank": 101,
+  "comment": 6,
+  "code": 361,
+  "nFiles": 9} }

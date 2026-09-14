@@ -1,0 +1,19 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0115149021148682,
+  "n_files"            : 6,
+  "n_lines"            : 1018,
+  "files_per_second"   : 521.063917013479,
+  "lines_per_second"   : 88407.1779199536,
+  "report_file"        : "output/repositories/tkhtmlview.json"},
+"Python" :{
+  "nFiles": 6,
+  "blank": 150,
+  "comment": 140,
+  "code": 728},
+"SUM": {
+  "blank": 150,
+  "comment": 140,
+  "code": 728,
+  "nFiles": 6} }

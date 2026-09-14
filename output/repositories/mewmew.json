@@ -1,0 +1,44 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00951814651489258,
+  "n_files"            : 7,
+  "n_lines"            : 1087,
+  "files_per_second"   : 735.437302740344,
+  "lines_per_second"   : 114202.906868393,
+  "report_file"        : "output/repositories/mewmew.json"},
+"C++" :{
+  "nFiles": 1,
+  "blank": 155,
+  "comment": 341,
+  "code": 336},
+"Bourne Shell" :{
+  "nFiles": 2,
+  "blank": 26,
+  "comment": 6,
+  "code": 67},
+"ANTLR Grammar" :{
+  "nFiles": 1,
+  "blank": 24,
+  "comment": 0,
+  "code": 61},
+"CMake" :{
+  "nFiles": 1,
+  "blank": 7,
+  "comment": 0,
+  "code": 31},
+"make" :{
+  "nFiles": 1,
+  "blank": 7,
+  "comment": 0,
+  "code": 18},
+"TeX" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 8},
+"SUM": {
+  "blank": 219,
+  "comment": 347,
+  "code": 521,
+  "nFiles": 7} }

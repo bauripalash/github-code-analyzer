@@ -1,0 +1,19 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00990104675292969,
+  "n_files"            : 2,
+  "n_lines"            : 5,
+  "files_per_second"   : 201.998844153342,
+  "lines_per_second"   : 504.997110383356,
+  "report_file"        : "output/repositories/mewlbook.json"},
+"JavaScript" :{
+  "nFiles": 2,
+  "blank": 0,
+  "comment": 3,
+  "code": 2},
+"SUM": {
+  "blank": 0,
+  "comment": 3,
+  "code": 2,
+  "nFiles": 2} }

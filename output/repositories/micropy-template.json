@@ -1,0 +1,29 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00658893585205078,
+  "n_files"            : 3,
+  "n_lines"            : 137,
+  "files_per_second"   : 455.308727746418,
+  "lines_per_second"   : 20792.4319004197,
+  "report_file"        : "output/repositories/micropy-template.json"},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 20,
+  "comment": 0,
+  "code": 89},
+"make" :{
+  "nFiles": 1,
+  "blank": 8,
+  "comment": 0,
+  "code": 19},
+"Python" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 1},
+"SUM": {
+  "blank": 28,
+  "comment": 0,
+  "code": 109,
+  "nFiles": 3} }

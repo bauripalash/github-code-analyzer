@@ -1,0 +1,29 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00799703598022461,
+  "n_files"            : 9,
+  "n_lines"            : 466,
+  "files_per_second"   : 1125.41696976924,
+  "lines_per_second"   : 58271.589768052,
+  "report_file"        : "output/repositories/pydjax.json"},
+"reStructuredText" :{
+  "nFiles": 4,
+  "blank": 68,
+  "comment": 12,
+  "code": 142},
+"Python" :{
+  "nFiles": 4,
+  "blank": 48,
+  "comment": 91,
+  "code": 85},
+"make" :{
+  "nFiles": 1,
+  "blank": 4,
+  "comment": 6,
+  "code": 10},
+"SUM": {
+  "blank": 120,
+  "comment": 109,
+  "code": 237,
+  "nFiles": 9} }

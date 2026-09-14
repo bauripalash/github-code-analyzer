@@ -1,0 +1,19 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00612592697143555,
+  "n_files"            : 1,
+  "n_lines"            : 58,
+  "files_per_second"   : 163.240600918502,
+  "lines_per_second"   : 9467.95485327314,
+  "report_file"        : "output/repositories/bananjani.json"},
+"Go" :{
+  "nFiles": 1,
+  "blank": 13,
+  "comment": 0,
+  "code": 45},
+"SUM": {
+  "blank": 13,
+  "comment": 0,
+  "code": 45,
+  "nFiles": 1} }

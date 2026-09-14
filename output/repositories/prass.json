@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0152349472045898,
+  "n_files"            : 28,
+  "n_lines"            : 4992,
+  "files_per_second"   : 1837.87968701095,
+  "lines_per_second"   : 327667.692769953,
+  "report_file"        : "output/repositories/prass.json"},
+"Rust" :{
+  "nFiles": 27,
+  "blank": 660,
+  "comment": 457,
+  "code": 3869},
+"make" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 0,
+  "code": 5},
+"SUM": {
+  "blank": 661,
+  "comment": 457,
+  "code": 3874,
+  "nFiles": 28} }

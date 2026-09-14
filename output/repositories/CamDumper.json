@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0116779804229736,
+  "n_files"            : 3,
+  "n_lines"            : 337,
+  "files_per_second"   : 256.893734305139,
+  "lines_per_second"   : 28857.7294869439,
+  "report_file"        : "output/repositories/CamDumper.json"},
+"Rust" :{
+  "nFiles": 1,
+  "blank": 74,
+  "comment": 74,
+  "code": 185},
+"Bourne Shell" :{
+  "nFiles": 2,
+  "blank": 0,
+  "comment": 0,
+  "code": 4},
+"SUM": {
+  "blank": 74,
+  "comment": 74,
+  "code": 189,
+  "nFiles": 3} }

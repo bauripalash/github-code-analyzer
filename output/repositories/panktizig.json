@@ -1,0 +1,54 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0291709899902344,
+  "n_files"            : 50,
+  "n_lines"            : 10822,
+  "files_per_second"   : 1714.03164639728,
+  "lines_per_second"   : 370985.009546227,
+  "report_file"        : "output/repositories/panktizig.json"},
+"Zig" :{
+  "nFiles": 36,
+  "blank": 1458,
+  "comment": 602,
+  "code": 8076},
+"Python" :{
+  "nFiles": 6,
+  "blank": 53,
+  "comment": 1,
+  "code": 157},
+"JavaScript" :{
+  "nFiles": 1,
+  "blank": 52,
+  "comment": 8,
+  "code": 137},
+"make" :{
+  "nFiles": 1,
+  "blank": 24,
+  "comment": 0,
+  "code": 69},
+"Windows Resource File" :{
+  "nFiles": 1,
+  "blank": 22,
+  "comment": 29,
+  "code": 59},
+"Visual Studio Solution" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 1,
+  "code": 39},
+"Bourne Shell" :{
+  "nFiles": 3,
+  "blank": 3,
+  "comment": 0,
+  "code": 15},
+"C/C++ Header" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 6,
+  "code": 9},
+"SUM": {
+  "blank": 1614,
+  "comment": 647,
+  "code": 8561,
+  "nFiles": 50} }

@@ -1,0 +1,34 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0557229518890381,
+  "n_files"            : 183,
+  "n_lines"            : 10644,
+  "files_per_second"   : 3284.10455290327,
+  "lines_per_second"   : 191016.441863948,
+  "report_file"        : "output/repositories/umami.json"},
+"JavaScript" :{
+  "nFiles": 177,
+  "blank": 1230,
+  "comment": 26,
+  "code": 8957},
+"SQL" :{
+  "nFiles": 4,
+  "blank": 65,
+  "comment": 37,
+  "code": 280},
+"Dockerfile" :{
+  "nFiles": 1,
+  "blank": 13,
+  "comment": 7,
+  "code": 25},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 0,
+  "code": 3},
+"SUM": {
+  "blank": 1309,
+  "comment": 70,
+  "code": 9265,
+  "nFiles": 183} }

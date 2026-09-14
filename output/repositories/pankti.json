@@ -1,0 +1,64 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0589849948883057,
+  "n_files"            : 124,
+  "n_lines"            : 21136,
+  "files_per_second"   : 2102.22956253208,
+  "lines_per_second"   : 358328.419626436,
+  "report_file"        : "output/repositories/pankti.json"},
+"C" :{
+  "nFiles": 54,
+  "blank": 1728,
+  "comment": 797,
+  "code": 10578},
+"C/C++ Header" :{
+  "nFiles": 46,
+  "blank": 935,
+  "comment": 1231,
+  "code": 3956},
+"CMake" :{
+  "nFiles": 13,
+  "blank": 140,
+  "comment": 106,
+  "code": 526},
+"Python" :{
+  "nFiles": 3,
+  "blank": 80,
+  "comment": 33,
+  "code": 325},
+"DOS Batch" :{
+  "nFiles": 1,
+  "blank": 22,
+  "comment": 1,
+  "code": 139},
+"make" :{
+  "nFiles": 1,
+  "blank": 77,
+  "comment": 46,
+  "code": 122},
+"Typst" :{
+  "nFiles": 2,
+  "blank": 14,
+  "comment": 5,
+  "code": 112},
+"JavaScript" :{
+  "nFiles": 2,
+  "blank": 7,
+  "comment": 5,
+  "code": 54},
+"Lisp" :{
+  "nFiles": 1,
+  "blank": 14,
+  "comment": 15,
+  "code": 39},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 6,
+  "comment": 5,
+  "code": 18},
+"SUM": {
+  "blank": 3023,
+  "comment": 2244,
+  "code": 15869,
+  "nFiles": 124} }

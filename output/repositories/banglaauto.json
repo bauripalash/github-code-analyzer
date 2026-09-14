@@ -1,0 +1,19 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00725102424621582,
+  "n_files"            : 1,
+  "n_lines"            : 304,
+  "files_per_second"   : 137.911550981488,
+  "lines_per_second"   : 41925.1114983724,
+  "report_file"        : "output/repositories/banglaauto.json"},
+"Python" :{
+  "nFiles": 1,
+  "blank": 61,
+  "comment": 14,
+  "code": 229},
+"SUM": {
+  "blank": 61,
+  "comment": 14,
+  "code": 229,
+  "nFiles": 1} }

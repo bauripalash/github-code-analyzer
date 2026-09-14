@@ -1,0 +1,29 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0226879119873047,
+  "n_files"            : 41,
+  "n_lines"            : 2095,
+  "files_per_second"   : 1807.12971836906,
+  "lines_per_second"   : 92339.9209751997,
+  "report_file"        : "output/repositories/panktikhata.json"},
+"Python" :{
+  "nFiles": 39,
+  "blank": 355,
+  "comment": 93,
+  "code": 1623},
+"make" :{
+  "nFiles": 1,
+  "blank": 6,
+  "comment": 0,
+  "code": 16},
+"Qt Project" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 2},
+"SUM": {
+  "blank": 361,
+  "comment": 93,
+  "code": 1641,
+  "nFiles": 41} }

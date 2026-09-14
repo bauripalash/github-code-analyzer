@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00654697418212891,
+  "n_files"            : 4,
+  "n_lines"            : 126,
+  "files_per_second"   : 610.969264384559,
+  "lines_per_second"   : 19245.5318281136,
+  "report_file"        : "output/repositories/mewlisp.json"},
+"Go" :{
+  "nFiles": 3,
+  "blank": 34,
+  "comment": 1,
+  "code": 86},
+"make" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 0,
+  "code": 4},
+"SUM": {
+  "blank": 35,
+  "comment": 1,
+  "code": 90,
+  "nFiles": 4} }

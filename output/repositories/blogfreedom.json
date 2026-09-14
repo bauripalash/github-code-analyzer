@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0126709938049316,
+  "n_files"            : 21,
+  "n_lines"            : 1102,
+  "files_per_second"   : 1657.32856659015,
+  "lines_per_second"   : 86970.2895420163,
+  "report_file"        : "output/repositories/blogfreedom.json"},
+"Kotlin" :{
+  "nFiles": 15,
+  "blank": 135,
+  "comment": 51,
+  "code": 515},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 23,
+  "comment": 36,
+  "code": 126},
+"Gradle" :{
+  "nFiles": 3,
+  "blank": 19,
+  "comment": 0,
+  "code": 87},
+"DOS Batch" :{
+  "nFiles": 1,
+  "blank": 21,
+  "comment": 2,
+  "code": 66},
+"ProGuard" :{
+  "nFiles": 1,
+  "blank": 3,
+  "comment": 18,
+  "code": 0},
+"SUM": {
+  "blank": 201,
+  "comment": 107,
+  "code": 794,
+  "nFiles": 21} }

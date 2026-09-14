@@ -1,0 +1,34 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00774788856506348,
+  "n_files"            : 4,
+  "n_lines"            : 519,
+  "files_per_second"   : 516.269686432594,
+  "lines_per_second"   : 66985.991814629,
+  "report_file"        : "output/repositories/baurinum.json"},
+"C" :{
+  "nFiles": 1,
+  "blank": 68,
+  "comment": 20,
+  "code": 246},
+"CMake" :{
+  "nFiles": 1,
+  "blank": 17,
+  "comment": 1,
+  "code": 83},
+"make" :{
+  "nFiles": 1,
+  "blank": 16,
+  "comment": 2,
+  "code": 54},
+"C/C++ Header" :{
+  "nFiles": 1,
+  "blank": 3,
+  "comment": 0,
+  "code": 9},
+"SUM": {
+  "blank": 104,
+  "comment": 23,
+  "code": 392,
+  "nFiles": 4} }

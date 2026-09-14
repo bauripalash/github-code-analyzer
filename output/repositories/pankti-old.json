@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0344119071960449,
+  "n_files"            : 83,
+  "n_lines"            : 9536,
+  "files_per_second"   : 2411.95582468441,
+  "lines_per_second"   : 277113.382460127,
+  "report_file"        : "output/repositories/pankti-old.json"},
+"Go" :{
+  "nFiles": 75,
+  "blank": 1677,
+  "comment": 494,
+  "code": 6651},
+"JavaScript" :{
+  "nFiles": 2,
+  "blank": 71,
+  "comment": 38,
+  "code": 485},
+"make" :{
+  "nFiles": 3,
+  "blank": 18,
+  "comment": 2,
+  "code": 46},
+"Maven" :{
+  "nFiles": 1,
+  "blank": 7,
+  "comment": 0,
+  "code": 32},
+"Bourne Shell" :{
+  "nFiles": 2,
+  "blank": 0,
+  "comment": 0,
+  "code": 15},
+"SUM": {
+  "blank": 1773,
+  "comment": 534,
+  "code": 7229,
+  "nFiles": 83} }

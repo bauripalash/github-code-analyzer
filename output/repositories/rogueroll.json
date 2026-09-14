@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0103318691253662,
+  "n_files"            : 16,
+  "n_lines"            : 1039,
+  "files_per_second"   : 1548.60653051806,
+  "lines_per_second"   : 100562.636575516,
+  "report_file"        : "output/repositories/rogueroll.json"},
+"C" :{
+  "nFiles": 7,
+  "blank": 62,
+  "comment": 14,
+  "code": 419},
+"C/C++ Header" :{
+  "nFiles": 6,
+  "blank": 60,
+  "comment": 46,
+  "code": 206},
+"make" :{
+  "nFiles": 1,
+  "blank": 43,
+  "comment": 70,
+  "code": 74},
+"Python" :{
+  "nFiles": 1,
+  "blank": 9,
+  "comment": 3,
+  "code": 29},
+"TypeScript" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 4},
+"SUM": {
+  "blank": 174,
+  "comment": 133,
+  "code": 732,
+  "nFiles": 16} }

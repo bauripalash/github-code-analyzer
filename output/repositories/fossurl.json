@@ -1,0 +1,29 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0184059143066406,
+  "n_files"            : 5,
+  "n_lines"            : 305,
+  "files_per_second"   : 271.651813471503,
+  "lines_per_second"   : 16570.7606217617,
+  "report_file"        : "output/repositories/fossurl.json"},
+"JavaScript" :{
+  "nFiles": 3,
+  "blank": 45,
+  "comment": 1,
+  "code": 229},
+"Python" :{
+  "nFiles": 1,
+  "blank": 10,
+  "comment": 1,
+  "code": 18},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 1},
+"SUM": {
+  "blank": 55,
+  "comment": 2,
+  "code": 248,
+  "nFiles": 5} }

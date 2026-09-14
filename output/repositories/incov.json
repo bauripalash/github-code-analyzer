@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0207910537719727,
+  "n_files"            : 15,
+  "n_lines"            : 2323,
+  "files_per_second"   : 721.464153020504,
+  "lines_per_second"   : 111730.748497775,
+  "report_file"        : "output/repositories/incov.json"},
+"Svelte" :{
+  "nFiles": 11,
+  "blank": 127,
+  "comment": 72,
+  "code": 2012},
+"JavaScript" :{
+  "nFiles": 4,
+  "blank": 20,
+  "comment": 19,
+  "code": 73},
+"SUM": {
+  "blank": 147,
+  "comment": 91,
+  "code": 2085,
+  "nFiles": 15} }

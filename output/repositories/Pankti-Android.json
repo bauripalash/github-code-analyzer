@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0144670009613037,
+  "n_files"            : 21,
+  "n_lines"            : 1723,
+  "files_per_second"   : 1451.57936023995,
+  "lines_per_second"   : 119098.630366354,
+  "report_file"        : "output/repositories/Pankti-Android.json"},
+"Kotlin" :{
+  "nFiles": 14,
+  "blank": 249,
+  "comment": 96,
+  "code": 963},
+"Bourne Shell" :{
+  "nFiles": 2,
+  "blank": 24,
+  "comment": 40,
+  "code": 137},
+"Gradle" :{
+  "nFiles": 3,
+  "blank": 8,
+  "comment": 2,
+  "code": 94},
+"DOS Batch" :{
+  "nFiles": 1,
+  "blank": 21,
+  "comment": 2,
+  "code": 66},
+"ProGuard" :{
+  "nFiles": 1,
+  "blank": 3,
+  "comment": 18,
+  "code": 0},
+"SUM": {
+  "blank": 305,
+  "comment": 158,
+  "code": 1260,
+  "nFiles": 21} }

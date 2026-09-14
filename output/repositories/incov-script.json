@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00823187828063965,
+  "n_files"            : 2,
+  "n_lines"            : 411,
+  "files_per_second"   : 242.957916992499,
+  "lines_per_second"   : 49927.8519419585,
+  "report_file"        : "output/repositories/incov-script.json"},
+"Python" :{
+  "nFiles": 1,
+  "blank": 51,
+  "comment": 27,
+  "code": 332},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 1},
+"SUM": {
+  "blank": 51,
+  "comment": 27,
+  "code": 333,
+  "nFiles": 2} }

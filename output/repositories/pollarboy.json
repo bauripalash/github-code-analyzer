@@ -1,0 +1,19 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00867700576782227,
+  "n_files"            : 5,
+  "n_lines"            : 359,
+  "files_per_second"   : 576.235643237896,
+  "lines_per_second"   : 41373.719184481,
+  "report_file"        : "output/repositories/pollarboy.json"},
+"JavaScript" :{
+  "nFiles": 5,
+  "blank": 72,
+  "comment": 61,
+  "code": 226},
+"SUM": {
+  "blank": 72,
+  "comment": 61,
+  "code": 226,
+  "nFiles": 5} }

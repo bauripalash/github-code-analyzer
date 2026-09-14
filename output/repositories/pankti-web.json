@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00872707366943359,
+  "n_files"            : 3,
+  "n_lines"            : 164,
+  "files_per_second"   : 343.75784067315,
+  "lines_per_second"   : 18792.0952901322,
+  "report_file"        : "output/repositories/pankti-web.json"},
+"Python" :{
+  "nFiles": 1,
+  "blank": 15,
+  "comment": 1,
+  "code": 83},
+"JavaScript" :{
+  "nFiles": 2,
+  "blank": 7,
+  "comment": 5,
+  "code": 53},
+"SUM": {
+  "blank": 22,
+  "comment": 6,
+  "code": 136,
+  "nFiles": 3} }

@@ -1,0 +1,69 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.300714015960693,
+  "n_files"            : 412,
+  "n_lines"            : 163093,
+  "files_per_second"   : 1370.07248792106,
+  "lines_per_second"   : 542352.505515799,
+  "report_file"        : "output/repositories/cpank.json"},
+"C" :{
+  "nFiles": 273,
+  "blank": 23884,
+  "comment": 6939,
+  "code": 111647},
+"C/C++ Header" :{
+  "nFiles": 115,
+  "blank": 2706,
+  "comment": 5662,
+  "code": 10965},
+"Zig" :{
+  "nFiles": 2,
+  "blank": 48,
+  "comment": 19,
+  "code": 394},
+"CMake" :{
+  "nFiles": 2,
+  "blank": 14,
+  "comment": 2,
+  "code": 277},
+"make" :{
+  "nFiles": 2,
+  "blank": 58,
+  "comment": 5,
+  "code": 153},
+"Python" :{
+  "nFiles": 5,
+  "blank": 40,
+  "comment": 13,
+  "code": 107},
+"Go" :{
+  "nFiles": 7,
+  "blank": 11,
+  "comment": 3,
+  "code": 35},
+"Maven" :{
+  "nFiles": 1,
+  "blank": 7,
+  "comment": 0,
+  "code": 32},
+"Visual Studio Solution" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 1,
+  "code": 29},
+"Bourne Shell" :{
+  "nFiles": 3,
+  "blank": 2,
+  "comment": 0,
+  "code": 16},
+"JavaScript" :{
+  "nFiles": 1,
+  "blank": 8,
+  "comment": 2,
+  "code": 13},
+"SUM": {
+  "blank": 26779,
+  "comment": 12646,
+  "code": 123668,
+  "nFiles": 412} }

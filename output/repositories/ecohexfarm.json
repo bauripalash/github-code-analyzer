@@ -1,0 +1,44 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0151641368865967,
+  "n_files"            : 25,
+  "n_lines"            : 3286,
+  "files_per_second"   : 1648.62663710831,
+  "lines_per_second"   : 216695.485181517,
+  "report_file"        : "output/repositories/ecohexfarm.json"},
+"C" :{
+  "nFiles": 12,
+  "blank": 317,
+  "comment": 113,
+  "code": 1692},
+"C/C++ Header" :{
+  "nFiles": 7,
+  "blank": 104,
+  "comment": 60,
+  "code": 359},
+"make" :{
+  "nFiles": 2,
+  "blank": 44,
+  "comment": 122,
+  "code": 250},
+"CMake" :{
+  "nFiles": 2,
+  "blank": 45,
+  "comment": 14,
+  "code": 127},
+"Windows Resource File" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 3,
+  "code": 23},
+"INI" :{
+  "nFiles": 1,
+  "blank": 2,
+  "comment": 0,
+  "code": 10},
+"SUM": {
+  "blank": 513,
+  "comment": 312,
+  "code": 2461,
+  "nFiles": 25} }

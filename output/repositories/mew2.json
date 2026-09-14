@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00757408142089844,
+  "n_files"            : 7,
+  "n_lines"            : 552,
+  "files_per_second"   : 924.204482498111,
+  "lines_per_second"   : 72880.1249055653,
+  "report_file"        : "output/repositories/mew2.json"},
+"Rust" :{
+  "nFiles": 6,
+  "blank": 80,
+  "comment": 24,
+  "code": 446},
+"Bourne Again Shell" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 2},
+"SUM": {
+  "blank": 80,
+  "comment": 24,
+  "code": 448,
+  "nFiles": 7} }

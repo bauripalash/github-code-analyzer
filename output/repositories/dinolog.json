@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.00761508941650391,
+  "n_files"            : 5,
+  "n_lines"            : 354,
+  "files_per_second"   : 656.591108328115,
+  "lines_per_second"   : 46486.6504696306,
+  "report_file"        : "output/repositories/dinolog.json"},
+"Go" :{
+  "nFiles": 4,
+  "blank": 52,
+  "comment": 11,
+  "code": 286},
+"make" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 0,
+  "code": 4},
+"SUM": {
+  "blank": 53,
+  "comment": 11,
+  "code": 290,
+  "nFiles": 5} }

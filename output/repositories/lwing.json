@@ -1,0 +1,24 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.0100889205932617,
+  "n_files"            : 13,
+  "n_lines"            : 945,
+  "files_per_second"   : 1288.54220625768,
+  "lines_per_second"   : 93667.1065318083,
+  "report_file"        : "output/repositories/lwing.json"},
+"Svelte" :{
+  "nFiles": 8,
+  "blank": 92,
+  "comment": 5,
+  "code": 412},
+"JavaScript" :{
+  "nFiles": 5,
+  "blank": 62,
+  "comment": 54,
+  "code": 320},
+"SUM": {
+  "blank": 154,
+  "comment": 59,
+  "code": 732,
+  "nFiles": 13} }

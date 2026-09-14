@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 1.07617020606995,
+  "n_files"            : 129,
+  "n_lines"            : 27151,
+  "files_per_second"   : 119.869514387593,
+  "lines_per_second"   : 25229.2805049421,
+  "report_file"        : "output/repositories/yarn.json"},
+"Go" :{
+  "nFiles": 109,
+  "blank": 4131,
+  "comment": 2245,
+  "code": 17965},
+"JavaScript" :{
+  "nFiles": 8,
+  "blank": 372,
+  "comment": 274,
+  "code": 1605},
+"Bourne Shell" :{
+  "nFiles": 8,
+  "blank": 60,
+  "comment": 3,
+  "code": 228},
+"Dockerfile" :{
+  "nFiles": 3,
+  "blank": 52,
+  "comment": 33,
+  "code": 84},
+"make" :{
+  "nFiles": 1,
+  "blank": 22,
+  "comment": 0,
+  "code": 77},
+"SUM": {
+  "blank": 4637,
+  "comment": 2555,
+  "code": 19959,
+  "nFiles": 129} }

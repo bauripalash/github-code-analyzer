@@ -1,0 +1,44 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.131762027740479,
+  "n_files"            : 54,
+  "n_lines"            : 56862,
+  "files_per_second"   : 409.829758436624,
+  "lines_per_second"   : 431550.735633765,
+  "report_file"        : "output/repositories/bauriglyphmaker.json"},
+"C/C++ Header" :{
+  "nFiles": 25,
+  "blank": 199,
+  "comment": 61,
+  "code": 53583},
+"C" :{
+  "nFiles": 23,
+  "blank": 477,
+  "comment": 19,
+  "code": 2239},
+"Zig" :{
+  "nFiles": 2,
+  "blank": 21,
+  "comment": 7,
+  "code": 80},
+"make" :{
+  "nFiles": 1,
+  "blank": 19,
+  "comment": 0,
+  "code": 63},
+"CMake" :{
+  "nFiles": 2,
+  "blank": 19,
+  "comment": 8,
+  "code": 53},
+"INI" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 14},
+"SUM": {
+  "blank": 735,
+  "comment": 95,
+  "code": 56032,
+  "nFiles": 54} }
