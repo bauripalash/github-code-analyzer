@@ -94,7 +94,7 @@ jobs:
               --json \
               --report-file="output/repositories/${REPO_NAME}.json" \
               --exclude-lang="${IGNORE_LANGS}" \
-              --exclude-dir="external,gen"
+              --exclude-dir="external,gen,exported"
           done
 
       - name: Generate README Breakdown
