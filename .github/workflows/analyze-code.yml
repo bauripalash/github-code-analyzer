@@ -2,19 +2,15 @@ name: Update Lines of Code in Readme
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Runs weekly on Sunday at midnight (UTC)
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
 
 jobs:
   count-lines:
     runs-on: ubuntu-latest
 
     env:
-      # Languages shown individually.
-      # Everything else goes into "Others".
       HIGHLIGHT_LANGS: "C,C/C++ Header,C++,JavaScript,TypeScript,JSX,Vuejs Component,PHP,Go,Zig,Rust,Python"
-
-      # Languages that should not be counted.
       IGNORE_LANGS: "JSON,HTML,CSS,SCSS,Sass,Markdown,SVG,XML,YAML,TOML,CSV,Text,Properties"
 
     steps:
@@ -79,11 +75,6 @@ jobs:
 
           mkdir -p output/repositories
 
-          TOTAL_CODE=0
-          TOTAL_FILES=0
-          TOTAL_BLANK=0
-          TOTAL_COMMENT=0
-
           echo "Calculating lines of code per repository..."
 
           for REPO_DIR in public-repos/*; do
@@ -96,42 +87,12 @@ jobs:
             echo "Repository: $REPO_NAME"
             echo "========================================"
 
-            # Exclude your standard generated/vendor directories:
-            #
-            #   src/external
-            #   src/gen
-            #
-            # The path is relative to the repository being analyzed.
             cloc "$REPO_DIR" \
               --json \
               --report-file="output/repositories/${REPO_NAME}.json" \
               --exclude-lang="${IGNORE_LANGS}" \
-              --fullpath \
-              --not-match-d='(^|/)(src/external|src/gen)(/|$)'
-
-            CODE=$(jq '.SUM.code // 0' "output/repositories/${REPO_NAME}.json")
-            FILES=$(jq '.SUM.nFiles // 0' "output/repositories/${REPO_NAME}.json")
-            BLANK=$(jq '.SUM.blank // 0' "output/repositories/${REPO_NAME}.json")
-            COMMENT=$(jq '.SUM.comment // 0' "output/repositories/${REPO_NAME}.json")
-
-            TOTAL_CODE=$((TOTAL_CODE + CODE))
-            TOTAL_FILES=$((TOTAL_FILES + FILES))
-            TOTAL_BLANK=$((TOTAL_BLANK + BLANK))
-            TOTAL_COMMENT=$((TOTAL_COMMENT + COMMENT))
+              --exclude-dir="external,gen"
           done
-
-          # Create a combined JSON summary.
-          jq -n \
-            --argjson files "$TOTAL_FILES" \
-            --argjson blank "$TOTAL_BLANK" \
-            --argjson comment "$TOTAL_COMMENT" \
-            --argjson code "$TOTAL_CODE" \
-            '{
-              files: $files,
-              blank: $blank,
-              comment: $comment,
-              code: $code
-            }' > output/total-summary.json
 
       - name: Generate README Breakdown
         run: |
@@ -146,21 +107,26 @@ jobs:
 
           REPO_BREAKDOWN=""
 
-          GRAND_TOTAL=$(jq '.code // 0' output/total-summary.json)
+          TOTAL_CODE=0
+          TOTAL_FILES=0
+          REPO_COUNT=0
 
-          # Process each repository.
           for REPO_FILE in output/repositories/*.json; do
             [ -f "$REPO_FILE" ] || continue
 
             REPO_NAME=$(basename "$REPO_FILE" .json)
 
-            TOTAL_REPO_LINES=$(jq '.SUM.code // 0' "$REPO_FILE")
+            REPO_LINES=$(jq '.SUM.code // 0' "$REPO_FILE")
+            REPO_FILES=$(jq '.SUM.nFiles // 0' "$REPO_FILE")
 
-            [ "$TOTAL_REPO_LINES" -gt 0 ] || continue
+            [ "$REPO_LINES" -gt 0 ] || continue
+
+            REPO_COUNT=$((REPO_COUNT + 1))
+            TOTAL_CODE=$((TOTAL_CODE + REPO_LINES))
+            TOTAL_FILES=$((TOTAL_FILES + REPO_FILES))
 
             REPO_BREAKDOWN+="### ${REPO_NAME}"$'\n'
-            REPO_BREAKDOWN+="""\`\`\`
-            """
+            REPO_BREAKDOWN+='```text'$'\n'
 
             while read -r ENTRY; do
               LANG_NAME=$(echo "$ENTRY" | jq -r '.lang')
@@ -168,70 +134,6 @@ jobs:
 
               [ "$LINES" -gt 0 ] || continue
 
-              REPO_BREAKDOWN+=$(printf "%-20s --> %s lines\n" \
-                "$LANG_NAME" \
-                "$(format_number "$LINES")")
-            done < <(
-              jq -c '
-                to_entries
-                | map(select(.key != "header" and .key != "SUM"))
-                | map({lang: .key, lines: .value.code})
-                | map(select(.lines > 0))
-                | sort_by(-.lines)
-                | .[]
-              ' "$REPO_FILE"
-            )
+              FORMATTED=$(format_number "$LINES")
 
-            REPO_BREAKDOWN+="""\nTOTAL                --> $(format_number "$TOTAL_REPO_LINES") lines
-            \`\`\`
-            """$'\n'
-          done
-
-          FORMATTED_TOTAL=$(format_number "$GRAND_TOTAL")
-          TOTAL_FILES=$(jq '.files // 0' output/total-summary.json)
-          FORMATTED_FILES=$(format_number "$TOTAL_FILES")
-
-          CODE_BLOCK='```text
-[ LINES OF CODE BY REPOSITORY ]
-
-'"$REPO_BREAKDOWN"'
-[ TOTAL ]
-Repositories          --> '"$(find output/repositories -name '*.json' | wc -l)"'
-Source files           --> '"$FORMATTED_FILES"'
-Total lines of code    --> '"$FORMATTED_TOTAL"'
-```'
-
-          if ! grep -q '<!-- LANGUAGES BREAKDOWN START -->' README.md; then
-            echo "ERROR: README.md is missing LANGUAGES BREAKDOWN START marker."
-            exit 1
-          fi
-
-          if ! grep -q '<!-- LANGUAGES BREAKDOWN END -->' README.md; then
-            echo "ERROR: README.md is missing LANGUAGES BREAKDOWN END marker."
-            exit 1
-          fi
-
-          {
-            sed -n '1,/<!-- LANGUAGES BREAKDOWN START -->/p' README.md
-            echo "$CODE_BLOCK"
-            sed -n '/<!-- LANGUAGES BREAKDOWN END -->/,$p' README.md
-          } > README.md.tmp
-
-          mv README.md.tmp README.md
-
-      - name: Commit and Push Output
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          set -e
-
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add output README.md
-
-          git commit \
-            -m "chore: update README with latest code statistics" ||
-            echo "No changes to commit"
-
-          git push origin HEAD
+              REPO_BREAKDOWN+=$(printf "%-20
