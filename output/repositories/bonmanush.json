@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00955915451049805,
+  "elapsed_seconds"    : 0.00617313385009766,
   "n_files"            : 9,
   "n_lines"            : 468,
-  "files_per_second"   : 941.505861226119,
-  "lines_per_second"   : 48958.3047837582,
+  "files_per_second"   : 1457.93048045728,
+  "lines_per_second"   : 75812.3849837788,
   "report_file"        : "output/repositories/bonmanush.json"},
 "Go" :{
   "nFiles": 6,

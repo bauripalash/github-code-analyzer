@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00707411766052246,
+  "elapsed_seconds"    : 0.00565004348754883,
   "n_files"            : 3,
   "n_lines"            : 105,
-  "files_per_second"   : 424.081156684979,
-  "lines_per_second"   : 14842.8404839743,
+  "files_per_second"   : 530.969364503334,
+  "lines_per_second"   : 18583.9277576167,
   "report_file"        : "output/repositories/tinysurf.json"},
 "Go" :{
   "nFiles": 3,

@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00633502006530762,
+  "elapsed_seconds"    : 0.00493907928466797,
   "n_files"            : 1,
   "n_lines"            : 58,
-  "files_per_second"   : 157.852696548869,
-  "lines_per_second"   : 9155.45639983441,
+  "files_per_second"   : 202.466885499131,
+  "lines_per_second"   : 11743.0793589496,
   "report_file"        : "output/repositories/simpleurlshortener.json"},
 "JavaScript" :{
   "nFiles": 1,

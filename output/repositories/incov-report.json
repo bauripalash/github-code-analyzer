@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0209372043609619,
+  "elapsed_seconds"    : 0.0191240310668945,
   "n_files"            : 8,
   "n_lines"            : 487,
-  "files_per_second"   : 382.094947447533,
-  "lines_per_second"   : 23260.0299258686,
+  "files_per_second"   : 418.321847105171,
+  "lines_per_second"   : 25465.3424425273,
   "report_file"        : "output/repositories/incov-report.json"},
 "JavaScript" :{
   "nFiles": 8,

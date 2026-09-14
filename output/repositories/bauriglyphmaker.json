@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0236289501190186,
+  "elapsed_seconds"    : 0.0137741565704346,
   "n_files"            : 52,
   "n_lines"            : 3864,
-  "files_per_second"   : 2200.69024387783,
-  "lines_per_second"   : 163528.213506614,
+  "files_per_second"   : 3775.18577882402,
+  "lines_per_second"   : 280525.343257231,
   "report_file"        : "output/repositories/bauriglyphmaker.json"},
 "C" :{
   "nFiles": 23,

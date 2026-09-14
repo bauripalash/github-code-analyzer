@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0131728649139404,
+  "elapsed_seconds"    : 0.00890302658081055,
   "n_files"            : 11,
   "n_lines"            : 636,
-  "files_per_second"   : 835.049935747769,
-  "lines_per_second"   : 48281.0690123256,
+  "files_per_second"   : 1235.53489368539,
+  "lines_per_second"   : 71436.3811258101,
   "report_file"        : "output/repositories/gemilander.json"},
 "Kotlin" :{
   "nFiles": 5,

@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0126190185546875,
+  "elapsed_seconds"    : 0.0080571174621582,
   "n_files"            : 3,
   "n_lines"            : 186,
-  "files_per_second"   : 237.736396614268,
-  "lines_per_second"   : 14739.6565900846,
+  "files_per_second"   : 372.341599100432,
+  "lines_per_second"   : 23085.1791442268,
   "report_file"        : "output/repositories/palashbauri_in.json"},
 "JavaScript" :{
   "nFiles": 3,

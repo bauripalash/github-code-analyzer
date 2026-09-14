@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00684118270874023,
+  "elapsed_seconds"    : 0.00468087196350098,
   "n_files"            : 1,
   "n_lines"            : 52,
-  "files_per_second"   : 146.173555447132,
-  "lines_per_second"   : 7601.02488325085,
+  "files_per_second"   : 213.635409769266,
+  "lines_per_second"   : 11109.0413080018,
   "report_file"        : "output/repositories/foobardb.json"},
 "Python" :{
   "nFiles": 1,

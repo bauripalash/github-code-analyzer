@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0243189334869385,
+  "elapsed_seconds"    : 0.0142009258270264,
   "n_files"            : 5,
   "n_lines"            : 305,
-  "files_per_second"   : 205.601121557632,
-  "lines_per_second"   : 12541.6684150155,
+  "files_per_second"   : 352.089720128268,
+  "lines_per_second"   : 21477.4729278243,
   "report_file"        : "output/repositories/fossurl.json"},
 "JavaScript" :{
   "nFiles": 3,

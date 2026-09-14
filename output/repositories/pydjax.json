@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00957107543945312,
+  "elapsed_seconds"    : 0.0069890022277832,
   "n_files"            : 9,
   "n_lines"            : 466,
-  "files_per_second"   : 940.333200478278,
-  "lines_per_second"   : 48688.3634914308,
+  "files_per_second"   : 1287.7374633281,
+  "lines_per_second"   : 66676.1842123218,
   "report_file"        : "output/repositories/pydjax.json"},
 "reStructuredText" :{
   "nFiles": 4,
