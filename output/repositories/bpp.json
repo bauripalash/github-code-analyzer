@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00582408905029297,
+  "elapsed_seconds"    : 0.00693607330322266,
   "n_files"            : 2,
   "n_lines"            : 40,
-  "files_per_second"   : 343.401342721467,
-  "lines_per_second"   : 6868.02685442934,
+  "files_per_second"   : 288.347586965489,
+  "lines_per_second"   : 5766.95173930978,
   "report_file"        : "output/repositories/bpp.json"},
 "C++" :{
   "nFiles": 1,

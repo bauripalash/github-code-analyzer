@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0198500156402588,
+  "elapsed_seconds"    : 0.0338680744171143,
   "n_files"            : 61,
   "n_lines"            : 8525,
-  "files_per_second"   : 3073.04543762086,
-  "lines_per_second"   : 429470.69435603,
+  "files_per_second"   : 1801.1062349968,
+  "lines_per_second"   : 251711.977923733,
   "report_file"        : "output/repositories/bauripixel.json"},
 "C" :{
   "nFiles": 27,

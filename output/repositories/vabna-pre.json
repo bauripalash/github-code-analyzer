@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0122220516204834,
+  "elapsed_seconds"    : 0.0185060501098633,
   "n_files"            : 16,
   "n_lines"            : 3026,
-  "files_per_second"   : 1309.10918206114,
-  "lines_per_second"   : 247585.274057312,
+  "files_per_second"   : 864.582118010822,
+  "lines_per_second"   : 163514.093068797,
   "report_file"        : "output/repositories/vabna-pre.json"},
 "Go" :{
   "nFiles": 16,

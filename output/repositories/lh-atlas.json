@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0129349231719971,
+  "elapsed_seconds"    : 0.0211129188537598,
   "n_files"            : 14,
   "n_lines"            : 4328,
-  "files_per_second"   : 1082.34117928962,
-  "lines_per_second"   : 334598.044568964,
+  "files_per_second"   : 663.101113444904,
+  "lines_per_second"   : 204992.972784967,
   "report_file"        : "output/repositories/lh-atlas.json"},
 "EJS" :{
   "nFiles": 6,

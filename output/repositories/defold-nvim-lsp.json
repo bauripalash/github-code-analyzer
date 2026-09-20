@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.036639928817749,
+  "elapsed_seconds"    : 0.0653951168060303,
   "n_files"            : 34,
   "n_lines"            : 5960,
-  "files_per_second"   : 927.949401024213,
-  "lines_per_second"   : 162664.071473656,
+  "files_per_second"   : 519.916496224757,
+  "lines_per_second"   : 91138.3034558692,
   "report_file"        : "output/repositories/defold-nvim-lsp.json"},
 "Lua" :{
   "nFiles": 33,
