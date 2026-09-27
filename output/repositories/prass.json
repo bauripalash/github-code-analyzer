@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0193219184875488,
+  "elapsed_seconds"    : 0.0192089080810547,
   "n_files"            : 28,
   "n_lines"            : 4992,
-  "files_per_second"   : 1449.13146269835,
-  "lines_per_second"   : 258359.437921078,
+  "files_per_second"   : 1457.65703505114,
+  "lines_per_second"   : 259879.425677688,
   "report_file"        : "output/repositories/prass.json"},
 "Rust" :{
   "nFiles": 27,

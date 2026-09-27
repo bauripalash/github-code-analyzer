@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0070807933807373,
+  "elapsed_seconds"    : 0.00656223297119141,
   "n_files"            : 1,
   "n_lines"            : 27,
-  "files_per_second"   : 141.227112023974,
-  "lines_per_second"   : 3813.13202464729,
+  "files_per_second"   : 152.387153030083,
+  "lines_per_second"   : 4114.45313181224,
   "report_file"        : "output/repositories/pankti-ide-webview.json"},
 "Go" :{
   "nFiles": 1,

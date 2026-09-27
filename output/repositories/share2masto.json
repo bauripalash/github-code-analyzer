@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00903820991516113,
+  "elapsed_seconds"    : 0.00888299942016602,
   "n_files"            : 5,
   "n_lines"            : 231,
-  "files_per_second"   : 553.206890184389,
-  "lines_per_second"   : 25558.1583265188,
+  "files_per_second"   : 562.872940039723,
+  "lines_per_second"   : 26004.7298298352,
   "report_file"        : "output/repositories/share2masto.json"},
 "TypeScript" :{
   "nFiles": 4,

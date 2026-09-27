@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0174429416656494,
+  "elapsed_seconds"    : 0.0172510147094727,
   "n_files"            : 21,
   "n_lines"            : 1723,
-  "files_per_second"   : 1203.92537007422,
-  "lines_per_second"   : 98779.2101256134,
+  "files_per_second"   : 1217.31969705346,
+  "lines_per_second"   : 99878.1827630051,
   "report_file"        : "output/repositories/Pankti-Android.json"},
 "Kotlin" :{
   "nFiles": 14,

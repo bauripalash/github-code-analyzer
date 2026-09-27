@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0374820232391357,
+  "elapsed_seconds"    : 0.0377211570739746,
   "n_files"            : 50,
   "n_lines"            : 10822,
-  "files_per_second"   : 1333.97281360719,
-  "lines_per_second"   : 288725.07577714,
+  "files_per_second"   : 1325.51607316672,
+  "lines_per_second"   : 286894.698876206,
   "report_file"        : "output/repositories/panktizig.json"},
 "Zig" :{
   "nFiles": 36,

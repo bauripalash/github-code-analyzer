@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00764894485473633,
+  "elapsed_seconds"    : 0.00777506828308105,
   "n_files"            : 3,
   "n_lines"            : 273,
-  "files_per_second"   : 392.210959416495,
-  "lines_per_second"   : 35691.1973069011,
+  "files_per_second"   : 385.848701358437,
+  "lines_per_second"   : 35112.2318236178,
   "report_file"        : "output/repositories/gemtext.json"},
 "Verilog-SystemVerilog" :{
   "nFiles": 2,

@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0180559158325195,
+  "elapsed_seconds"    : 0.0182068347930908,
   "n_files"            : 25,
   "n_lines"            : 3286,
-  "files_per_second"   : 1384.5877568267,
-  "lines_per_second"   : 181990.214757302,
+  "files_per_second"   : 1373.11071826098,
+  "lines_per_second"   : 180481.672808224,
   "report_file"        : "output/repositories/ecohexfarm.json"},
 "C" :{
   "nFiles": 12,

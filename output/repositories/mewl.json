@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0133380889892578,
+  "elapsed_seconds"    : 0.0132620334625244,
   "n_files"            : 16,
   "n_lines"            : 1410,
-  "files_per_second"   : 1199.57214357214,
-  "lines_per_second"   : 105712.295152295,
+  "files_per_second"   : 1206.45148764045,
+  "lines_per_second"   : 106318.537348315,
   "report_file"        : "output/repositories/mewl.json"},
 "Rust" :{
   "nFiles": 15,

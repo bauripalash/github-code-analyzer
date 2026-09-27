@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0092170238494873,
+  "elapsed_seconds"    : 0.00887894630432129,
   "n_files"            : 6,
   "n_lines"            : 430,
-  "files_per_second"   : 650.969347370599,
-  "lines_per_second"   : 46652.8032282263,
+  "files_per_second"   : 675.755860476357,
+  "lines_per_second"   : 48429.1700008056,
   "report_file"        : "output/repositories/mechobiral.json"},
 "Go" :{
   "nFiles": 4,

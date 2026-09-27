@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00696682929992676,
+  "elapsed_seconds"    : 0.00679922103881836,
   "n_files"            : 1,
   "n_lines"            : 64,
-  "files_per_second"   : 143.537319051367,
-  "lines_per_second"   : 9186.3884192875,
+  "files_per_second"   : 147.075671505716,
+  "lines_per_second"   : 9412.8429763658,
   "report_file"        : "output/repositories/dotfiles.json"},
 "vim script" :{
   "nFiles": 1,

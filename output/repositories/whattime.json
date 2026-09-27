@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00716304779052734,
+  "elapsed_seconds"    : 0.00932097434997559,
   "n_files"            : 1,
   "n_lines"            : 32,
-  "files_per_second"   : 139.605378777793,
-  "lines_per_second"   : 4467.37212088936,
+  "files_per_second"   : 107.284921345441,
+  "lines_per_second"   : 3433.1174830541,
   "report_file"        : "output/repositories/whattime.json"},
 "PHP" :{
   "nFiles": 1,

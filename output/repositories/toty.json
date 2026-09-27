@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00844192504882812,
+  "elapsed_seconds"    : 0.00788092613220215,
   "n_files"            : 2,
   "n_lines"            : 142,
-  "files_per_second"   : 236.912788070493,
-  "lines_per_second"   : 16820.807953005,
+  "files_per_second"   : 253.777280290425,
+  "lines_per_second"   : 18018.1869006202,
   "report_file"        : "output/repositories/toty.json"},
 "Python" :{
   "nFiles": 2,

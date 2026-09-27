@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0138189792633057,
+  "elapsed_seconds"    : 0.00832796096801758,
   "n_files"            : 3,
   "n_lines"            : 337,
-  "files_per_second"   : 217.092734769931,
-  "lines_per_second"   : 24386.7505391556,
+  "files_per_second"   : 360.232235900372,
+  "lines_per_second"   : 40466.0878328085,
   "report_file"        : "output/repositories/CamDumper.json"},
 "Rust" :{
   "nFiles": 1,

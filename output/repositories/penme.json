@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.06803297996521,
+  "elapsed_seconds"    : 0.0679099559783936,
   "n_files"            : 13,
   "n_lines"            : 21103,
-  "files_per_second"   : 191.0837950454,
-  "lines_per_second"   : 310187.794372545,
+  "files_per_second"   : 191.429957694806,
+  "lines_per_second"   : 310749.722864114,
   "report_file"        : "output/repositories/penme.json"},
 "JavaScript" :{
   "nFiles": 13,
