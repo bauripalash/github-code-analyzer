@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00913906097412109,
+  "elapsed_seconds"    : 0.00938582420349121,
   "n_files"            : 8,
   "n_lines"            : 729,
-  "files_per_second"   : 875.363456120213,
-  "lines_per_second"   : 79767.4949389544,
+  "files_per_second"   : 852.349226509513,
+  "lines_per_second"   : 77670.3232656794,
   "report_file"        : "output/repositories/gemjam.json"},
 "Rust" :{
   "nFiles": 8,

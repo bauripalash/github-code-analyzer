@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0729391574859619,
+  "elapsed_seconds"    : 0.0720729827880859,
   "n_files"            : 183,
   "n_lines"            : 10644,
-  "files_per_second"   : 2508.94041427913,
-  "lines_per_second"   : 145929.845735448,
+  "files_per_second"   : 2539.09291555297,
+  "lines_per_second"   : 147683.633842327,
   "report_file"        : "output/repositories/umami.json"},
 "JavaScript" :{
   "nFiles": 177,

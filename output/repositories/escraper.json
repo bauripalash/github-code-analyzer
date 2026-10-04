@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0251119136810303,
+  "elapsed_seconds"    : 0.0251932144165039,
   "n_files"            : 3,
   "n_lines"            : 8354,
-  "files_per_second"   : 119.465208351135,
-  "lines_per_second"   : 332670.783521794,
+  "files_per_second"   : 119.079683537116,
+  "lines_per_second"   : 331597.225423023,
   "report_file"        : "output/repositories/escraper.json"},
 "C/C++ Header" :{
   "nFiles": 1,

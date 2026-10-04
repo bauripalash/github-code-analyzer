@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0184400081634521,
+  "elapsed_seconds"    : 0.0182468891143799,
   "n_files"            : 23,
   "n_lines"            : 1740,
-  "files_per_second"   : 1247.28795107508,
-  "lines_per_second"   : 94360.0449943757,
+  "files_per_second"   : 1260.48883488169,
+  "lines_per_second"   : 95358.7205519188,
   "report_file"        : "output/repositories/jumpvolly.json"},
 "Godot Scene" :{
   "nFiles": 9,

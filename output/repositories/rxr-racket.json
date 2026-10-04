@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00643205642700195,
+  "elapsed_seconds"    : 0.00625085830688477,
   "n_files"            : 1,
   "n_lines"            : 36,
-  "files_per_second"   : 155.471272889021,
-  "lines_per_second"   : 5596.96582400474,
+  "files_per_second"   : 159.978030360821,
+  "lines_per_second"   : 5759.20909298955,
   "report_file"        : "output/repositories/rxr-racket.json"},
 "Racket" :{
   "nFiles": 1,

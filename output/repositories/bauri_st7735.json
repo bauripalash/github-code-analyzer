@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0141489505767822,
+  "elapsed_seconds"    : 0.0140781402587891,
   "n_files"            : 4,
   "n_lines"            : 1166,
-  "files_per_second"   : 282.706479063106,
-  "lines_per_second"   : 82408.9386468953,
+  "files_per_second"   : 284.128437881046,
+  "lines_per_second"   : 82823.4396423249,
   "report_file"        : "output/repositories/bauri_st7735.json"},
 "Python" :{
   "nFiles": 4,

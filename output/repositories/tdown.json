@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00727510452270508,
+  "elapsed_seconds"    : 0.00707197189331055,
   "n_files"            : 1,
   "n_lines"            : 68,
-  "files_per_second"   : 137.455069804024,
-  "lines_per_second"   : 9346.94474667366,
+  "files_per_second"   : 141.403276919965,
+  "lines_per_second"   : 9615.42283055762,
   "report_file"        : "output/repositories/tdown.json"},
 "Python" :{
   "nFiles": 1,

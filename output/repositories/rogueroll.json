@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0124318599700928,
+  "elapsed_seconds"    : 0.0124828815460205,
   "n_files"            : 16,
   "n_lines"            : 1039,
-  "files_per_second"   : 1287.0157835184,
-  "lines_per_second"   : 83575.5874422262,
+  "files_per_second"   : 1281.75533357526,
+  "lines_per_second"   : 83233.9869740436,
   "report_file"        : "output/repositories/rogueroll.json"},
 "C" :{
   "nFiles": 7,

@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00739502906799316,
+  "elapsed_seconds"    : 0.00748181343078613,
   "n_files"            : 3,
   "n_lines"            : 116,
-  "files_per_second"   : 405.677918560789,
-  "lines_per_second"   : 15686.2128510172,
+  "files_per_second"   : 400.97230808451,
+  "lines_per_second"   : 15504.2625792677,
   "report_file"        : "output/repositories/upnt.json"},
 "Go" :{
   "nFiles": 2,

@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.011847972869873,
+  "elapsed_seconds"    : 0.0116119384765625,
   "n_files"            : 13,
   "n_lines"            : 945,
-  "files_per_second"   : 1097.23411277015,
-  "lines_per_second"   : 79760.4797359842,
+  "files_per_second"   : 1119.53745072273,
+  "lines_per_second"   : 81381.7608409987,
   "report_file"        : "output/repositories/lwing.json"},
 "Svelte" :{
   "nFiles": 8,
