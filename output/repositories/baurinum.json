@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00872492790222168,
+  "elapsed_seconds"    : 0.00896787643432617,
   "n_files"            : 4,
   "n_lines"            : 519,
-  "files_per_second"   : 458.456510452248,
-  "lines_per_second"   : 59484.7322311791,
+  "files_per_second"   : 446.036475780295,
+  "lines_per_second"   : 57873.2327324932,
   "report_file"        : "output/repositories/baurinum.json"},
 "C" :{
   "nFiles": 1,

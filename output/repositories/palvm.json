@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00662088394165039,
+  "elapsed_seconds"    : 0.00757598876953125,
   "n_files"            : 2,
   "n_lines"            : 113,
-  "files_per_second"   : 302.074468851278,
-  "lines_per_second"   : 17067.2074900972,
+  "files_per_second"   : 263.991943605237,
+  "lines_per_second"   : 14915.5448136959,
   "report_file"        : "output/repositories/palvm.json"},
 "C" :{
   "nFiles": 1,

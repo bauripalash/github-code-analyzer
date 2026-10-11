@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0105359554290771,
+  "elapsed_seconds"    : 0.011085033416748,
   "n_files"            : 8,
   "n_lines"            : 920,
-  "files_per_second"   : 759.304654793963,
-  "lines_per_second"   : 87320.0353013057,
+  "files_per_second"   : 721.693809953973,
+  "lines_per_second"   : 82994.7881447069,
   "report_file"        : "output/repositories/dinolog-old-archive.json"},
 "Go" :{
   "nFiles": 8,

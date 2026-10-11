@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.019730806350708,
+  "elapsed_seconds"    : 0.020313024520874,
   "n_files"            : 10,
   "n_lines"            : 5647,
-  "files_per_second"   : 506.821658590814,
-  "lines_per_second"   : 286202.190606233,
+  "files_per_second"   : 492.294979988028,
+  "lines_per_second"   : 277998.975199239,
   "report_file"        : "output/repositories/evlsim.json"},
 "C/C++ Header" :{
   "nFiles": 5,

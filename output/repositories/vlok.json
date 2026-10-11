@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00907778739929199,
+  "elapsed_seconds"    : 0.00960612297058105,
   "n_files"            : 7,
   "n_lines"            : 424,
-  "files_per_second"   : 771.113013788575,
-  "lines_per_second"   : 46707.4168351937,
+  "files_per_second"   : 728.701893723164,
+  "lines_per_second"   : 44138.5147055174,
   "report_file"        : "output/repositories/vlok.json"},
 "Verilog-SystemVerilog" :{
   "nFiles": 6,

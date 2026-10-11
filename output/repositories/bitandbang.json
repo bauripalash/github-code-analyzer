@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.0072019100189209,
+  "elapsed_seconds"    : 0.0076448917388916,
   "n_files"            : 2,
   "n_lines"            : 75,
-  "files_per_second"   : 277.704108319264,
-  "lines_per_second"   : 10413.9040619724,
+  "files_per_second"   : 261.612599407454,
+  "lines_per_second"   : 9810.47247777951,
   "report_file"        : "output/repositories/bitandbang.json"},
 "JavaScript" :{
   "nFiles": 2,

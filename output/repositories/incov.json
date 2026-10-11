@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.024090051651001,
+  "elapsed_seconds"    : 0.0252687931060791,
   "n_files"            : 15,
   "n_lines"            : 2323,
-  "files_per_second"   : 622.663671182985,
-  "lines_per_second"   : 96429.8472105383,
+  "files_per_second"   : 593.617587394443,
+  "lines_per_second"   : 91931.577034486,
   "report_file"        : "output/repositories/incov.json"},
 "Svelte" :{
   "nFiles": 11,

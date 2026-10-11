@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00668001174926758,
+  "elapsed_seconds"    : 0.00691699981689453,
   "n_files"            : 1,
   "n_lines"            : 1,
-  "files_per_second"   : 149.700335498608,
-  "lines_per_second"   : 149.700335498608,
+  "files_per_second"   : 144.571349786295,
+  "lines_per_second"   : 144.571349786295,
   "report_file"        : "output/repositories/devnight.json"},
 "JavaScript" :{
   "nFiles": 1,

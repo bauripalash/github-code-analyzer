@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 0.00747489929199219,
+  "elapsed_seconds"    : 0.0081629753112793,
   "n_files"            : 3,
   "n_lines"            : 137,
-  "files_per_second"   : 401.343199795866,
-  "lines_per_second"   : 18328.0061240112,
+  "files_per_second"   : 367.51305566914,
+  "lines_per_second"   : 16783.0962088907,
   "report_file"        : "output/repositories/micropy-template.json"},
 "Bourne Shell" :{
   "nFiles": 1,
